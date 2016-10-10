@@ -5,5 +5,5 @@ app.get('/', function (req, res) {
    res.send('Welcome to my API');
 });
 app.listen(port, function () {
-   console.log("Server running on PORT: "+ port);
+   console.log("Gulp is running my server on PORT: "+ port);
 });
